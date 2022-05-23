@@ -1,3 +1,7 @@
+/**
+ * 🃏 Jest configuration file
+ * https://jestjs.io/docs/27.x/getting-started
+ */
 const ROOT_DIR_SRC = "<rootDir>/src/$1"
 module.exports = {
     moduleFileExtensions: ["js", "json", "vue"],

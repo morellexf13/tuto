@@ -28,11 +28,13 @@ export default {
   },
   data() {
     return {
+      // 💽 Directly using the getters from stores/index.js
       userIsLoggedIn: this.$store.getters.userIsLoggedIn
     }
   },
   methods: {
     navigateToSpotify() {
+      // 🔄 Redirect to Spotify page
       this.$router.push("/spotify")
     }
   }

@@ -1,3 +1,7 @@
+/**
+ * 📦 Webpack configuration file
+ * https://webpack.js.org/configuration/
+ */
 const path = require("path")
 const VueLoaderPlugin = require("vue-loader/lib/plugin")
 const htmlWebpackPlugin = require("html-webpack-plugin")
