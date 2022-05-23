@@ -2,7 +2,6 @@
   "name": "tuto",
   "version": "1.0.0",
   "description": "The vanilla version of the boilerplate that helps you to start creating your own Vue 2 projects using webpack bundler and more amazing tools!",
-  "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
@@ -20,14 +19,47 @@
   },
   "homepage": "https://github.com/morellexf26/tuto#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-env": "^7.18.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "axios": "^0.27.2",
     "babel-loader": "^8.2.5",
-    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "vue": "^2.6.14",
+    "image-webpack-loader": "^8.1.0",
+    "style-loader": "^3.3.1",
     "vue-loader": "^15.0.0",
+    "vue-router": "^3.0.0",
     "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.6.2",
+    "vuex-persist": "^3.1.3",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
   }
 }
