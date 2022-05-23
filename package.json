@@ -1,5 +1,5 @@
 {
-    "name": "tuto",
+    "name": "vanilla-tuto",
     "version": "1.0.0",
     "description": "The vanilla version of the boilerplate that helps you to start creating your own Vue 2 projects using webpack bundler and more amazing tools!",
     "scripts": {
