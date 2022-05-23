@@ -1,11 +1,14 @@
 <template>
-  <div id="app">
+  <div class="container">
     <div class="hello">
       <span>🍦</span>
-      <h1>{{!userIsLoggedIn ? 'Welcome to Tuto!' : 'You are now logged in'}}</h1>
+      <h1>
+        {{ !userIsLoggedIn ? "Welcome to Tuto!" : "You are now logged in" }}
+      </h1>
       <p v-if="!userIsLoggedIn">
-        The vanilla version of the boilerplate that helps <br> you to start creating your own Vue 2 projects <br> using
-        webpack bundler and more amazing tools!
+        The vanilla version of the boilerplate that helps <br />
+        you to start creating your own Vue 2 projects <br />
+        using webpack bundler and more amazing tools!
       </p>
       <ul>
         <li v-if="userIsLoggedIn && $route.name != 'spotify'">
@@ -18,7 +21,6 @@
 </template>
 
 <script>
-
 export default {
   name: "MainSection",
   props: {
@@ -27,14 +29,14 @@ export default {
   data() {
     return {
       userIsLoggedIn: this.$store.getters.userIsLoggedIn
-    };
+    }
   },
   methods: {
     navigateToSpotify() {
-      this.$router.push("/spotify");
+      this.$router.push("/spotify")
     }
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

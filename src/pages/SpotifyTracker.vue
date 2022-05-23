@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
+  <div class="container">
     <MainSection>
       <li>
         <a v-on:click="navigateToHome">Go Home</a>
       </li>
     </MainSection>
-    <br>
+    <br />
     <div v-if="isPlaying">
       <img :src="imgSrc" />
       <p>🎸 You are currently listening to {{ song }} by {{ artist }}</p>
@@ -21,45 +21,41 @@
 </template>
 
 <script>
-import MainSection from "@components/MainSection.vue";
-import * as api from "@/assets/scripts/api";
+import MainSection from "@components/MainSection.vue"
+import * as api from "@/assets/scripts/api"
 export default {
   name: "SpotifyTracker",
   components: {
-    MainSection,
+    MainSection
   },
   mounted() {
     api
       .getUsersCurrentlyPlayingTrack()
       .then((item) => {
-        this.isPlaying = true;
-        this.song = item.name;
-        this.artist = item.artists[0].name;
-        this.imgSrc = item.album.images[0].url;
+        this.isPlaying = true
+        this.song = item.name
+        this.artist = item.artists[0].name
+        this.imgSrc = item.album.images[0].url
       })
       .catch(() => {
-        this.isPlaying = false;
-      });
+        this.isPlaying = false
+      })
   },
   data() {
     return {
       isPlaying: false,
       song: "",
       imgSrc: "",
-      artist: "",
-    };
+      artist: ""
+    }
   },
   methods: {
     navigateToHome() {
-      this.$router.push("/");
-    },
+      this.$router.push("/")
+    }
   }
-};
+}
 </script>
 
-<style>
-img {
-  width: 140px;
-  height: 140px;
-}
-</style>
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped></style>

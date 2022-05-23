@@ -1,18 +1,16 @@
 <template>
-  <div id="app">
-    <UserSessionLink />
-  </div>
+  <UserSessionLink />
 </template>
 
 <script>
-import UserSessionLink from "@components/UserSessionLink.vue";
+import UserSessionLink from "@components/UserSessionLink.vue"
 export default {
   name: "Home",
   components: {
-    UserSessionLink,
+    UserSessionLink
   }
-};
+}
 </script>
 
-<style>
-</style>
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped></style>

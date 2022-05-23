@@ -1,32 +1,10 @@
-import Vue from "vue";
-import App from "./App.vue";
-// import router from '../router.js'
-import Router from "vue-router";
-import store from "../stores/index.js";
-Vue.use(store);
-Vue.use(Router);
+import Vue from "vue"
+import App from "./App.vue"
+import router from "../router.js"
+import "@assets/css/index.css"
+import store from "../stores/index.js"
+Vue.use(store)
+Vue.router = router
+Vue.config.productionTip = false
 
-var router = new Router({
-  mode: "history",
-  routes: [
-    { 
-        path: "/", 
-        name: "home", 
-        component: () => import("./pages/Home.vue") },
-    {
-      path: "/login",
-      name: "login",
-      component: () => import("./pages/Login.vue"),
-    },
-    {
-        path: "/spotify",
-        name: "spotify",
-        component: () => import("./pages/SpotifyTracker.vue"),
-      },
-  ],
-});
-
-Vue.router = router;
-Vue.config.productionTip = false;
-
-new Vue({ router, store, render: (h) => h(App) }).$mount("#app");
+new Vue({ router, store, render: (h) => h(App) }).$mount("#app")

@@ -7,22 +7,28 @@
 </template>
 
 <script>
-import MainSection from "@components/MainSection.vue";
+import MainSection from "@components/MainSection.vue"
 export default {
   name: "UserSessionLink",
   components: {
-    MainSection,
+    MainSection
   },
   data() {
     return {
-      userIsLoggedIn: this.$store.getters.userIsLoggedIn,
-    };
+      userIsLoggedIn: this.$store.getters.userIsLoggedIn
+    }
   },
   methods: {
     login() {
-        this.$store.dispatch("setUserIsLoggedIn", this.userIsLoggedIn ? false : true);
-        this.$router.push(this.userIsLoggedIn ? "/login" : "/");
+      this.$store.dispatch(
+        "setUserIsLoggedIn",
+        this.userIsLoggedIn ? false : true
+      )
+      this.$router.push(this.userIsLoggedIn ? "/login" : "/")
     }
-  },
-};
+  }
+}
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped></style>

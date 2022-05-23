@@ -1,18 +1,28 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import Login from "./src/pages/Login.vue"
-import Home from "./src/pages/Home.vue"
-import SpotifyTracker from "./src/pages/SpotifyTracker.vue"
-
+import Vue from "vue"
+import Router from "vue-router"
 Vue.use(Router)
 
-// const router = new VueRouter({
-//     mode: 'history',
-//     routes
-// })
-
-export default new Router({
-    routes: [{ path: '/', name: 'home', component: Home },
-    { path: '/login', name: 'login', component: Login },
-    { path: '/spotify', name: 'spotify', component: SpotifyTracker }]
+const router = new Router({
+    mode: "history",
+    routes: [{
+            path: "/",
+            name: "home",
+            component: () =>
+                import ("@/pages/Home.vue")
+        },
+        {
+            path: "/login",
+            name: "login",
+            component: () =>
+                import ("@/pages/Login.vue")
+        },
+        {
+            path: "/spotify",
+            name: "spotify",
+            component: () =>
+                import ("@/pages/SpotifyTracker.vue")
+        }
+    ]
 })
+
+export default router
