@@ -5,7 +5,9 @@
 [![Build](https://img.shields.io/github/workflow/status/morellexf26/tuto/Build?label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf26/tuto/actions?query=workflow%3Abuild) 
 ![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-This boilerplate helps you to start creating your own Vue 2.6.x projects using 🗃️ Vuex Store, 🚏 Vue Router, 📡 Axios, 🤹🏻‍♂️ Jest and more amazing tools .
+<img alt='Website' src="./src/assets/screenshots/login.png" />
+
+This is the vanilla version of the boilerplate that helps you to start creating your own Vue 2.6.x projects using 🗃️ Vuex Store, 🚏 Vue Router, 📡 Axios, 🤹🏻‍♂️ Jest and more amazing tools .
 
 Tuto is the short of Tutorial and the best/easier way to start creating a SPA using the best frameworks out there! 🤩
 
