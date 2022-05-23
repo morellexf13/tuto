@@ -24,8 +24,8 @@ export default new Vuex.Store({
     },
     // https://v3.vuex.vuejs.org/api/#mutations
     mutations: {
-        setUserIsLoggedIn(state) {
-            state.session.userIsLoggedIn = true
+        setUserIsLoggedIn(state, payload) {
+            state.session.userIsLoggedIn = payload
         }
     },
     // https://v3.vuex.vuejs.org/api/#actions
