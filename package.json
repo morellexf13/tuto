@@ -1,6 +1,6 @@
 {
     "name": "vanilla-tuto",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The vanilla version of the boilerplate that helps you to start creating your own Vue 2 projects using webpack bundler and more amazing tools!",
     "scripts": {
         "dev": "webpack-dev-server --mode development --open",
