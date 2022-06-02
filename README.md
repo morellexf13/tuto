@@ -1,35 +1,41 @@
-# 🍦 Tuto
-
 <div align="center">
+  <h1>
+    <br/>
+    🍦
+    <br />
+    <br />
+    Vanilla Tuto
+    <br />
+    <br />
+  </h1>
+  <sup>
+    <br />
+   A Vue 2 Starter Boilerplate with Vue Router 3, Vuex 3, Webpack 5, Axios, Jest and More.</em>
+    <br />
+    <br /
 
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/tuto/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/v/release/morellexf26/tuto?label=%20&style=for-the-badge)](https://github.com/morellexf26/tuto/releases)
-[![Build](https://img.shields.io/github/workflow/status/morellexf26/tuto/Build?label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf26/tuto/actions?query=workflow%3Abuild) 
-![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D) ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/tuto/blob/main/LICENSE)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/vanilla-tuto?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vanilla-tuto)
+[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://v2.vuejs.org)
 
-
-<img src=".github/images/built-with.svg">
-<img src=".github/images/uses-js.svg">
-
+  </sup>
 </div>
 
 <img alt='Website' src="./src/assets/screenshots/login.png" />
-
-This is the vanilla version of the boilerplate that helps you to start creating your own Vue 2.6.x projects using 🗃️ Vuex Store, 🚏 Vue Router, 📡 Axios, 🤹🏻‍♂️ Jest and more amazing tools .
 
 Tuto is the short of Tutorial and the best/easier way to start creating a SPA using the best frameworks out there!
 
 <br>
 
-## 👨🏻‍🏫  Basic topics
+## 👨🏻‍🏫 Basic topics
 
-- [What is Vue?](https://vuejs.org/guide/introduction.html#what-is-vue)
-- [Single-File Components](https://vuejs.org/guide/introduction.html#single-file-components)
-- [Reactivity Fundamentals](https://vuejs.org/guide/essentials/reactivity-fundamentals.html#reactivity-fundamentals)
-- [Computed Properties](https://vuejs.org/guide/essentials/computed.html#computed-properties)
-- [Props Declaration](https://vuejs.org/guide/components/props.html#props-declaration)
-- [Slots](https://vuejs.org/guide/components/slots.html#slots)
-- [Performance Overview](https://vuejs.org/guide/best-practices/performance.html#overview)
+- [What is Vue?](https://v2.vuejs.org/v2/guide/#What-is-Vue-js)
+- [Single-File Components](https://v2.vuejs.org/v2/guide/single-file-components.html)
+- [Reactivity in Depth](https://v2.vuejs.org/v2/guide/reactivity.html)
+- [Computed Properties and Watchers](https://v2.vuejs.org/v2/guide/computed.html)
+- [Props](https://v2.vuejs.org/v2/guide/components-props.html)
+- [Slots](https://v2.vuejs.org/v2/guide/components-slots.html)
 - [Vuex Store v3 - Getting Started](https://v3.vuex.vuejs.org/)
 - [Vue Router v3 - Getting Started](https://v3.router.vuejs.org/)
 - [Jest Unit Tests (🇪🇸)](https://medium.com/@agustinmorelle01/las-7-claves-del-%C3%A9xito-tests-unitarios-de-frontend-vue-js-y-jest-28988ae561ac)
@@ -45,7 +51,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 - Basic GET request using Axios (Spotify Tracker API). This request needs an [Authorization Bearer Token ](https://developer.spotify.com/console/get-users-currently-playing-track/). For security purposes you can just set this token on environment files.
 - Environment file example.
 - Jest configuration defined.
--  API Unit test included.
+- API Unit test included.
 - Path alias defined (webpack.config.js).
 - GitHub actions workflow example defined.
 
@@ -53,7 +59,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 
 ## 🏛 Project Structure
 
-```
+```json
 tuto
 ├─ .babelrc
 ├─ LICENSE
@@ -94,23 +100,25 @@ tuto
 
 ```
 
-## 🏁 Start
-Create your project directly from GitHub based
-on tuto boilerplate right now:
-
-<a href="https://github.com/morellexf26/tuto/generate"> 
-<img src=".github/images/generate-your-project.svg"/>
-</a>
 
 <br>
 
-## 🏃🏼‍♂️ Run
+## 🚀 Install
 
-1. `npm install`
-2. `npm run dev`
+Install it locally in your project
+
+```bash
+npm install
+
+npm run dev
+```
 
 <br>
 
-## 🧪 Run tests
 
-1. `npm run test`
+## 🧪 Unit tests
+
+```
+npm run test
+```
+

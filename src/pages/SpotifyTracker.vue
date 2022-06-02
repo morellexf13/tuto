@@ -11,6 +11,7 @@
       <p>🎸 You are currently listening to {{ song }} by {{ artist }}</p>
     </div>
     <div v-else>
+      <!-- Make sure to have the .env file in root directory to show this page -->
       <p>
         1. Set <i>VUE_APP_SPOTIFY_AUTHORIZATION_BEARER_TOKEN</i>
         <br />
