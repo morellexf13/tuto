@@ -59,7 +59,7 @@ Tuto is the short of Tutorial and the best/easier way to start creating a SPA us
 
 ## 🏛 Project Structure
 
-```json
+```
 tuto
 ├─ .babelrc
 ├─ LICENSE
