@@ -1,6 +1,6 @@
 {
   "name": "vanilla-tuto",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Vue 2 Starter Boilerplate with Vue Router 3, Vuex 3, Webpack 5, Axios, Jest and More.",
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
