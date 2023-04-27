@@ -14,8 +14,8 @@
     <br />
     <br /
 
-[![Version](https://img.shields.io/github/v/tag/morellexf26/tuto?label=%20&style=for-the-badge)](https://github.com/morellexf26/tuto/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/tuto/blob/main/LICENSE)
+[![Version](https://img.shields.io/github/v/tag/morellexf13/tuto?label=%20&style=for-the-badge)](https://github.com/morellexf13/tuto/releases)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/tuto/blob/main/LICENSE)
 [![Package Monthly Downloads](https://img.shields.io/npm/dm/vanilla-tuto?label=%20&style=for-the-badge)](https://www.npmjs.com/package/vanilla-tuto)
 [![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://v2.vuejs.org)
 
@@ -100,7 +100,6 @@ tuto
 
 ```
 
-
 <br>
 
 ## 🚀 Install
@@ -115,10 +114,8 @@ npm run dev
 
 <br>
 
-
 ## 🧪 Unit tests
 
 ```
 npm run test
 ```
-
