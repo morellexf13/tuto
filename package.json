@@ -2,23 +2,19 @@
   "name": "vanilla-tuto",
   "version": "1.0.5",
   "description": "A Vue 2 Starter Boilerplate with Vue Router 3, Vuex 3, Webpack 5, Axios, Jest and More.",
+  "author": "morellexf13",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morellexf13/tuto.git"
+  },
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "test": "jest",
     "build": "webpack --mode production",
     "webpack": "webpack --mode development"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/morellexf26/tuto.git"
-  },
   "keywords": [],
-  "author": "morellexf26",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/morellexf26/tuto/issues"
-  },
-  "homepage": "https://github.com/morellexf26/tuto#readme",
   "devDependencies": {
     "@babel/core": "^7.18.10",
     "@babel/eslint-parser": "^7.18.9",
