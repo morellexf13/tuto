@@ -5,6 +5,7 @@
     <br />
     <br />
     Vanilla Tuto
+    (Deprecated)
     <br />
     <br />
   </h1>
